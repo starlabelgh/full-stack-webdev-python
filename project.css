@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.art {
+    margin:auto;
+}
+
+td {
+    background-color: black;
+    height: 400px;
+    width: 200px;
+    border: 6px solid white;
+}
+
+#one {
+    background-color: #1c77c3;
+    text-align: center;
+    border-radius: 10%;
+    border-color: black;
+}
+
+#two {
+    background-color: #39a9db;
+    text-align: center;
+    border-radius: 10%;
+    border-color: #d63230;
+}
+
+#three {
+    background-color: hsl(191, 66%, 55%);
+    text-align: center;
+    border-radius: 10%;
+    border-color: antiquewhite;
+}
+
+#four {
+    background-color: #f39237;
+    text-align: center;
+    border-radius: 10%;
+    border-color: #f337c1;
+}
+
+#five {
+    background-color: #d63230;
+    text-align: center;
+    border-radius: 10%;
+    border-color: aquamarine;
+}
