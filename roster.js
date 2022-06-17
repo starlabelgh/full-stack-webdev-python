@@ -1,17 +1,20 @@
 // the roster questionaire popup form
 var roster = []
+
+//add new name to roster
 function addNew() {
     var newName = prompt("What name would you like to add?")
     roster.push(newName)
 }
 
-
+//remove a name from the roster
 function remove() {
     var remName = prompt("What name would you like to remove?")
     var index = roster.indexOf(remName);
     roster.splice(index,1)
 }
 
+//display add names in the roster
 function display() {
     console.log(roster);
 }
