@@ -21,5 +21,5 @@ myList = [1,2,3,4,5,6,7,8]
 #     return num%2 == 0
 # evens = filter(even_bool,myList)
 
-evens = filter(lamda num:num%2 == 0, myList)
+evens = filter(lambda num:num%2 == 0, myList)
 print(list(evens))
